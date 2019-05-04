@@ -4,4 +4,6 @@ BASE_DIR="$(dirname $(cd "$(dirname "$0")" && pwd))"
 PKG_NAME=$(basename $BASE_DIR)
 APP_DIR=$(dirname $(dirname $BASE_DIR))
 
-ln -s $BASE_DIR/sugly $APP_DIR/sugly/modules/$PKG_NAME
+if [-d $APP_DIR/sugly/modules]; then
+  ln -s $BASE_DIR/sugly $APP_DIR/sugly/modules/$PKG_NAME
+fi
