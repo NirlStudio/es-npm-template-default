@@ -1,0 +1,36 @@
+{
+  "name": "sugly-npm-template-default",
+  "version": "0.0.1",
+  "description": "A boilerplate project to wrap a sugly app & module as an npm package.",
+  "author": "Leevi Li",
+  "license": "MIT",
+  "main": "index.js",
+  "bin": {
+    "hello": "bin/hello"
+  },
+  "scripts": {
+    "test": "mocha",
+    "install": "scripts/install",
+    "uninstall": "scripts/uninstall"
+  },
+  "keywords": [
+    "sugly",
+    "sugly-lang",
+    "boilerplate",
+    "template",
+    "app",
+    "module"
+  ],
+  "standard": {
+    "env": [
+      "mocha"
+    ]
+  },
+  "dependencies": {
+    "sugly": "NirlStudio/sugly-lang#development"
+  },
+  "devDependencies": {
+    "mocha": "^6.1.4",
+    "standard": "^12.0.1"
+  }
+}

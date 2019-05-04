@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+
+BASE_DIR="$(dirname $(cd "$(dirname "$0")" && pwd))"
+PKG_NAME=$(basename $BASE_DIR)
+APP_DIR=$(dirname $(dirname $BASE_DIR))
+
+rm $APP_DIR/sugly/modules/$PKG_NAME
