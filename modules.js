@@ -1,6 +1,6 @@
 'use strict'
 /**
- * native modules must be explicitly exposed to sugly code.
+ * All native modules must be explicitly exposed to sugly code.
  */
 
 function copy (source, exporting) {

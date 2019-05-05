@@ -2,8 +2,12 @@
   "name": "sugly-npm-template-default",
   "version": "0.0.1",
   "description": "A boilerplate project to wrap a sugly app & module as an npm package.",
-  "author": "Leevi Li",
+  "author": {
+    "email": "leevi@nirlstudio.com",
+    "name": "Leevi Li"
+  },
   "license": "MIT",
+  "repository": "NirlStudio/sugly-npm-template-default",
   "main": "index.js",
   "bin": {
     "hello": "bin/hello"
