@@ -7,4 +7,4 @@ var * (load "./profile");
 var hello (import say-hello-to from "./module");
 
 # do something
-hello (arguments 0:: ?* user-name);
+hello (arguments first:: ?* user-name);
