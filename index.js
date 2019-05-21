@@ -2,13 +2,10 @@
 
 var path = require('path')
 var sugly = require('sugly')
-var modules = require('sugly/modules')
-
-// expose some native modules.
-modules.register(require('./modules.js'))
 
 // create the void.
 var $void = sugly()
+require('./profile')($void)
 
 // prepare the path of app home directory.
 var srcHome = path.join(__dirname, 'sugly')
