@@ -13,8 +13,8 @@
     "hello": "bin/hello"
   },
   "scripts": {
-    "test": "mocha",
-    "sugly-test": "sugly :profile test sugly/test",
+    "mocha": "mocha",
+    "test": "sugly :profile test sugly/test",
     "install": "scripts/install",
     "uninstall": "scripts/uninstall"
   },

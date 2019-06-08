@@ -1,7 +1,7 @@
 #!/usr/bin/env sugly
 
-# setup environment
-var * (load "./profile");
+# setup global environment.
+export * (load "./profile");
 
 # import function(s) from module
 var hello (import say-hello-to from "./module");
