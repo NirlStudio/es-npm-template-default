@@ -1,6 +1,6 @@
 {
   "name": "sugly-npm-template-default",
-  "version": "0.0.2",
+  "version": "0.1.1",
   "description": "A boilerplate project to wrap a sugly app & module as an npm package.",
   "author": {
     "name": "Leevi Li",
