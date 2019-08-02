@@ -1,4 +1,4 @@
-#!/usr/bin/env sugly
+#!/usr/bin/env es
 
 # setup global environment.
 export * (load "./profile");
