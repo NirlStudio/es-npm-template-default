@@ -1,6 +1,6 @@
 {
   "name": "es-npm-template-default",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "A boilerplate project to wrap an Espresso app & module as an npm package.",
   "author": {
     "name": "Leevi Li",
@@ -14,9 +14,7 @@
   },
   "scripts": {
     "mocha": "mocha",
-    "test": "es :profile test es/test",
-    "install": "scripts/install",
-    "uninstall": "scripts/uninstall"
+    "test": "es :profile test es/test"
   },
   "keywords": [
     "es",
@@ -35,7 +33,7 @@
     ]
   },
   "dependencies": {
-    "eslang": "^1.0.3"
+    "eslang": "^1.0.6"
   },
   "devDependencies": {
     "mocha": "^6.2.0",
