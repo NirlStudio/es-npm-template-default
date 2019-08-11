@@ -17,5 +17,5 @@ if (require.main === module) {
 } else {
   // running as a module (exposing Espresso module to JS code)
   var being = $void.createBootstrapSpace(path.join(appHome, '@'))
-  module.exports = being.$import('module')
+  module.exports = being.$import('./module')
 }
